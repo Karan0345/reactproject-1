@@ -22,9 +22,11 @@ const Highlights = () => {
                         <p className='link'>Watch the film
                         <img src={watchImg} alt="watch" className='ml-2' />
                         </p>
+                        <a href="https://www.apple.com/apple-events/">
                         <p className='link'>Watch the event
                         <img src={rightImg} alt="right" className='ml-2' />
                         </p>
+                        </a>
                     </div>
                 </div>
 
