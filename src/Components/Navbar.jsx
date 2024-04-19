@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-                <a href='https://reactsignuppage-qubnd4zrs-karan0345s-projects.vercel.app/'><MdAccountCircle className='mr-4 h-18 w-18'/></a>
+                <a href='https://reactsignuppage-rho.vercel.app/'><MdAccountCircle className='mr-4 h-18 w-18'/></a>
              </div>
                
             </nav>
