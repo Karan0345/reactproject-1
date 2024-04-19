@@ -1,6 +1,8 @@
 import React from 'react'
-import {appleImg, bagImg, searchImg} from '../utils';
+import {appleImg} from '../utils';
 import {navLists} from '../constants'
+import { RiAccountBoxFill } from "react-icons/ri";
+
 
 const Navbar = () => {
  
@@ -20,12 +22,13 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-                    <img src={searchImg} alt="search" width={18} height={18} />
-                    <img src={bagImg} alt="bag" width={18} height={18} />
-                </div>
+                <a href='https://reactsignuppage-rho.vercel.app/'>   <div className="cursor-pointer flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
+               <RiAccountBoxFill className='w-18 mr-4 h-18'/>
+                </div></a>
+               
             </nav>
         </header>
+       
     </div>
   )
 }

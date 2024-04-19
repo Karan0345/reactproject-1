@@ -19,9 +19,9 @@ const Highlights = () => {
                     <h1 id='title' className='section-heading'>Get the highlights.</h1>
 
                     <div className='flex flex-wrap items-end gap-5'>
-                        <p className='link'>Watch the film
-                        <img src={watchImg} alt="watch" className='ml-2' />
-                        </p>
+                       <a href='https://www.apple.com/iphone-15-pro/'><p className='link'>Go to Official Website.
+                        <img src={rightImg} alt="watch" className='ml-2' />
+                        </p></a>
                         <a href="https://www.apple.com/apple-events/">
                         <p className='link'>Watch the event
                         <img src={rightImg} alt="right" className='ml-2' />
