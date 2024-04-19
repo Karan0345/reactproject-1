@@ -8,7 +8,6 @@ import Highlights from './Components/Highlights';
 function App() {
   return (
     <>
-   
     <Navbar />
     <Hero />
     <Highlights />

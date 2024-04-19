@@ -1,7 +1,7 @@
 import React from 'react'
 import {appleImg} from '../utils';
 import {navLists} from '../constants'
-import { RiAccountBoxFill } from "react-icons/ri";
+import { MdAccountCircle } from "react-icons/md";
 
 
 const Navbar = () => {
@@ -22,9 +22,9 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <a href='https://reactsignuppage-rho.vercel.app/'>   <div className="cursor-pointer flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-               <RiAccountBoxFill className='w-18 mr-4 h-18'/>
-                </div></a>
+                <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
+                <a href='https://reactsignuppage-qubnd4zrs-karan0345s-projects.vercel.app/'><MdAccountCircle className='mr-4 h-18 w-18'/></a>
+             </div>
                
             </nav>
         </header>
